@@ -1,0 +1,12 @@
+
+Genera un fitxer CSV amb exactament 100 registres simulant comandes reals d'un restaurant. El fitxer ha de tenir les següents columnes:
+id_comanda: enter únic entre 1 i 100
+id_taula: enter entre 1 i 20
+data_comanda: format YYYY-MM-DD, dates de l'any 2024
+hora_comanda: format HH:MM, en horari de restaurant (13:00-15:30 i 20:00-22:30)
+nom_plat: nom del plat demanat, mínim 8 plats diferents (exemples: Croquetes de pernil, Entrecot a la brasa, Crema catalana, Aigua mineral, Sopa de ceba, Pit de pollastre a la planxa, Tiramisú, Vi negre de la casa, Amanida catalana, Llom de bacallà amb mel i mostassa, Mousse de xocolata, Cervesa artesana, Gaspatxo andalús, Suc de taronja natural, Coca-Cola)
+categoria_plat: només pot ser un d'aquests valors: primer plat, segon plat, postres, beguda
+preu: decimal entre 3.00 i 35.00, consistent amb la categoria del plat
+quantitat: enter entre 1 i 5
+id_cambrer: enter entre 1 i 10
+valoracio: enter entre 1 i 15, pot tenir valors buits
